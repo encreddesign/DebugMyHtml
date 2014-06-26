@@ -95,7 +95,7 @@ db.debugAll();
 
 ##### DMHS #####
 <p>DMHS is a static switch for the debugger, it can be used to switch on or off the debugger</p>
-<p><b>Note:</b> DHMS will only switch on of off elements that have the debug attribute/property</p>
+<p><b>Note:</b> DHMS will only switch on or off elements that have the debug attribute/property</p>
 
 <p>Switch on the debugger</p>
 <pre>
