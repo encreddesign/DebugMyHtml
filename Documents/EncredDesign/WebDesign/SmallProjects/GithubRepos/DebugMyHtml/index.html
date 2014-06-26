@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<div debug="false" id="test1">Hello World! this has debug property</div>
+	<p debug="true">Test 1 element this also has debug property</p>
+		<button id="debug_off">Turn off debugging</button>
+		<label>All elements with debug property set to true, will be set to false</label>
+			</br></br>
+		<button id="debug_on">Turn on debugging</button>
+		<label>All elements with debug property set to false, will be set to true</label>
+			</br></br>
+		<button id="debug_all">Debug all elements</button>
+		<label>All elements will be debugged, with or without debug property attatched</label>
+	<script src="debug-my-html-0.0.1.js"></script>
+	<script>
+		var db = new DMH();
+		config.d.getElementById('debug_off').addEventListener('mouseup', function(){
+			DMHS.Switch.OFF();
+		});
+		config.d.getElementById('debug_on').addEventListener('mouseup', function(){
+			DMHS.Switch.ON();
+			db.debugElements();
+		});
+		config.d.getElementById('debug_all').addEventListener('mouseup', function(){
+			db.debugAll();
+		});
+	</script>
+</body>
+</html>
