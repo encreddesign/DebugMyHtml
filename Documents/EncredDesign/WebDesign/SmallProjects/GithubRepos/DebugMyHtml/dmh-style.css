@@ -1,0 +1,24 @@
+.error-debug{
+	border:1px solid cyan;
+}
+div.error-debug{
+	border:1px solid red;
+}
+p.error-debug{
+	border:1px solid black;
+}
+h1,h2,h3,h4,h5,h6.error-debug{
+	border:1px solid blue;
+}
+a.error-debug{
+	border:1px solid green;
+}
+span.error-debug{
+	border:1px solid grey;
+}
+button.error-debug{
+	border:1px solid yellow;
+}
+input.error-debug{
+	border:1px solid brown;
+}
